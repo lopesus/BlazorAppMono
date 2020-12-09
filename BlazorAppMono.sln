@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppMono.Client", "Cli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppMono.Shared", "Shared\BlazorAppMono.Shared.csproj", "{78027E55-F1A8-4CF9-AE9F-BA530F079B0C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55449E3C-C124-492E-BBB4-7004B8120047}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".do", ".do", "{4C607EF7-0C41-48CB-98C8-B10E9EB1B0CB}"
 	ProjectSection(SolutionItems) = preProject
 		app.yaml = app.yaml
