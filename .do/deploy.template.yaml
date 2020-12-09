@@ -1,7 +1,7 @@
 spec:
   name: blazorAppMono
   services:
-  - name: api
+  - name: apiTest
     git:
       branch: master
       repo_clone_url: https://github.com/lopesus/BlazorAppMono.git
