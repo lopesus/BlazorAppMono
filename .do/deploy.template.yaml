@@ -1,0 +1,16 @@
+spec:
+  name: blazorAppMono
+  services:
+  - name: api
+    git:
+      branch: master
+      repo_clone_url: https://github.com/lopesus/BlazorAppMono.git
+    source_dir: Server
+    dockerfile_path: Server/Dockerfile
+    routes:
+    - path: /    
+
+    http_port: 80
+    instance_count: 1
+    instance_size_slug: basic-xxs
+    name: blazorAppMono
