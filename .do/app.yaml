@@ -1,7 +1,7 @@
 name: blazorAppMono
 region: ams
 services:
-- dockerfile_path: Server/Dockerfile
+#- dockerfile_path: Server/Dockerfile
   github:
     repo: lopesus/BlazorAppMono
     branch: master
